@@ -1,0 +1,13 @@
+
+
+@media(max-width:1023px){
+ .pane{display:none;width:100%}
+ body[data-tab=code] #pane-editor{display:flex}
+ body[data-tab=preview] #pane-right,body[data-tab=console] #pane-right{display:flex}
+ body[data-tab=preview] #cons,body[data-tab=console] #prev{display:none}
+ #prev,#cons{flex:1 1 auto}
+ #mnav{display:flex}
+}
+@media(min-width:640px){.hm{display:none}}
+@media(max-width:639px){.dsk{display:none}}
+

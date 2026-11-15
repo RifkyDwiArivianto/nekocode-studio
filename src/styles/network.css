@@ -1,0 +1,13 @@
+.sb .ct{background:none;border:0;color:var(--mu);font:800 12px inherit;font-family:inherit;display:flex;align-items:center;gap:6px;padding:0 8px;height:34px;cursor:pointer}
+.sb .ct.on{color:var(--pk)}
+#net-n{background:var(--pk);color:var(--on);border-radius:99px;font-size:10px;padding:0 6px;line-height:16px}
+#net{flex:1;min-height:0;overflow:auto;padding:6px 10px;font-size:12px}
+#net.hide,#logs.hide{display:none}
+.nr{border-bottom:1px solid var(--bd)}
+.nh{display:flex;align-items:center;gap:8px;width:100%;min-height:40px;background:none;border:0;color:var(--tx);text-align:left;font:inherit;cursor:pointer}
+.nh .m{color:var(--pk);width:44px;flex:none}.nh .u{flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.nh .mk{font-style:normal;font-size:9px;background:var(--pp);color:var(--on);border-radius:5px;padding:1px 5px}
+.nh em{font-style:normal;font-weight:800}.nh em.ok{color:#4ade80}.nh em.bad{color:#f87171}.nh small{color:var(--mu)}
+.nd{margin:0 0 8px;padding:8px;background:var(--bg);border-radius:8px;white-space:pre-wrap;word-break:break-all;max-height:200px;overflow:auto;color:var(--tx)}
+.nd.hide{display:none}.ne{color:var(--mu);font-style:italic;line-height:1.7}
+.ne button{margin-top:8px;display:block;font-style:normal;height:36px;padding:0 12px;border-radius:9px;background:var(--cd);border:1px solid var(--bd);color:var(--tx);cursor:pointer}
